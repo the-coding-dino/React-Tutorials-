@@ -1,9 +1,1 @@
-[
-  { "id": 1, "name": "Hello World!" },
-  { "id": 2, "name": "My Name is Coding Dino" },
-  { "id": 3, "name": "We are learning Node JS" },
-  { "id": 4, "name": "Express makes routing easy" },
-  { "id": 5, "name": "Hello, this is new Data" },
-  { "id": 6, "name": "Yayyyy!!!!!" },
-  { "id": 7, "name": "ssss!!!!!" }
-]
+[{"id":1,"name":"Hello World!"},{"id":2,"name":"My Name is Coding Dino"},{"id":3,"name":"We are learning Node JS"},{"id":4,"name":"Express makes routing easy"},{"id":5,"name":"Hello, this is new Data"},{"id":6,"name":"Yayyyy!!!!!"},{"id":7,"name":"ssss!!!!!"},{"id":8,"name":"Testing from react"},{"id":9,"tester":"Testing new"},{"id":10,"name":"Test"},{"id":11,"name":"Hello world!"},{"id":12,"name":"Hello world!"},{"id":13,"name":"Hello world!"},{"id":14,"name":"Hello world!"},{"id":15,"name":"Hello world!"},{"id":16,"name":"Hello world!"},{"id":17,"name":"Hello world!"}]

@@ -1,18 +1,7 @@
-import React, { useState } from "react";
-import axios from 'axios';
+import GetMethod from "./components/GetMethod";
+import PostMethod from "./components/PostMethod";
 
 function App() {
-
-  const [datas, setDatas] = useState([]);
-
-  const fetchDatas = async () => {
-    const response = await axios.get('http://localhost:3200/datas')
-    setDatas(response.data)
-    console.log("Data", response.data)
-  }
-
-
-
 
 
   return (
@@ -21,9 +10,9 @@ function App() {
         <h2>React Frontend</h2>
       </center>
       <br/>
-      <button onClick={fetchDatas}>Datas</button>
+      <GetMethod />
       <br/>
-      {datas && datas.map( (item) => <h4 key={item.id}>{item.name}</h4>    )}
+      <PostMethod />
     </div>
   );
 }
