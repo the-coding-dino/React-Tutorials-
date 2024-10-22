@@ -23,7 +23,7 @@ function App() {
       <br/>
       <button onClick={fetchDatas}>Datas</button>
       <br/>
-      {datas && datas.map( (item) => <h4>{item.id}</h4>    )}
+      {datas && datas.map( (item) => <h4 key={item.id}>{item.name}</h4>    )}
     </div>
   );
 }
