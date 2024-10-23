@@ -1,4 +1,5 @@
 import GetMethod from "./components/GetMethod";
+import PostImage from "./components/PostImage";
 import PostMethod from "./components/PostMethod";
 
 function App() {
@@ -10,9 +11,7 @@ function App() {
         <h2>React Frontend</h2>
       </center>
       <br/>
-      <GetMethod />
-      <br/>
-      <PostMethod />
+<PostImage />
     </div>
   );
 }
